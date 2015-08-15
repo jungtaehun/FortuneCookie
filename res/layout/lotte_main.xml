@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".LotteActivity" >
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:typeface="serif"
+        android:textStyle="bold|italic"
+        android:layout_marginTop="20dp"
+        android:text="Fortune Cookie"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="포춘쿠키는 중국의 운세과자입니다.\n\n포춘쿠키는 단지\n작은 교훈에 지나지 않습니다.\n 그러나 포춘쿠키의 작은 교훈으로도\n운명은 얼마든지 바뀔 수 있습니다.\n\n 이 쿠키의 교훈를 통해 힘을 얻고 \n 그 힘을 바탕으로 노력하시면 \n행운은 반드시 올 것입니다."
+        android:textColor="#aa000000"
+        android:textSize="7.5pt"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="23dp"
+        android:background="@drawable/startbtn" />
+       
+</RelativeLayout>
